@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login | Code Mania</title>
+	
+    <!--The font awesome cdn-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	
+    <!--The Tailwind Cdn-->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--This is the title icon-->
+    <link rel="shortcut icon" href="code.jpg" type="image/x-icon" />
+
+</head>
+<body>
+    <section class="min-h-screen flex items-stretch text-white ">
+        <div class="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style="background-image: url(https://images.wallpaperscraft.com/image/code_programming_it_152538_2560x1080.jpg);">
+            <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+            <div class="w-full px-24 z-10">
+                <h1 class="text-5xl font-bold text-left tracking-wide">Come Lets' Code and Learn !</h1>
+                <p class="text-3xl my-4 text-yellow-500">Login with Your account and start coding with your teammates.</p>
+            </div>
+            <div class="bottom-0 absolute p-4 text-center right-0 left-0 flex justify-center space-x-4">
+                <span>
+                    <i class="fab fa-youtube fa-2x" ></i>
+                </span>
+                <span>
+                    <i class="fab fa-github fa-2x"></i>
+                </span>
+                <span>
+                    <i class="fab fa-google fa-2x"></i>
+                </span>
+            </div>
+        </div>
+        <div class="lg:w-1/2 w-full flex items-center justify-center text-center md:px-16 px-0 z-0" style="background-color: #161616;">
+            <div class="absolute lg:hidden z-10 inset-0 bg-gray-500 bg-no-repeat bg-cover items-center" style="background-image: url(code.jpg);">
+                <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+            </div>
+            <div class="w-full py-6 z-20">
+                <h1 class="my-6">
+                	<h1 class="text-white text-5xl">Code <span class="text-yellow-300">Mania</span> <i class="fab fa-teamspeak"></i></h1>
+                	<h1 class="text-white text-2xl py-2">Better Place to Code !<h1>
+                </h1>
+                <!--You can login using all these methods using the oauth2-->
+                <div class="py-6 space-x-2">
+                    <a href="#"><i class="fab fa-youtube fa-2x px-1"></i></a>
+                    <a href="#"><i class="fab fa-github fa-2x px-2"></i></a>
+                    <a href="#"><i class="fab fa-google fa-2x"></i></a>
+                </div>
+                <p class="text-gray-100 mx-1">
+                    Login with Email <i class="fas fa-user px-1"></i>
+                </p>
+                <form action="404.html" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
+                    <div class="pb-2 pt-4">
+                        <input type="email" name="email" id="email" placeholder="Email" class="block w-full p-4 text-lg rounded-sm bg-black">
+                    </div>
+                    <div class="pb-2 pt-4">
+                        <input class="block w-full p-4 text-lg rounded-sm bg-black" type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="text-right text-gray-400 hover:underline hover:text-gray-100">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                    <!-- The login button-->
+                    <div class="px-4 pb-2 pt-4">
+                        <a href="404.html"><button class="uppercase block w-full p-4 text-lg rounded-full bg-gradient-to-r from-red-100 to-purple-500 font-bold text-gray-800 hover:from-blue-700 hover:text-white transition duration-200 ease-in-out focus:outline-none">Login <i class="fas fa-sign-in-alt"></i></button></a>
+                    </div>
+                    <!-- The create a new account button-->
+                    <div class="px-4 pb-2 pt-1">
+                        <a href="404.html"><button class="uppercase block w-full p-4 text-lg rounded-full bg-gradient-to-r from-red-100 to-purple-500 font-bold text-gray-800 hover:from-blue-700 hover:text-white transition duration-200 ease-in-out focus:outline-none">Create a new Account <i class="fas fa-user-plus"></i></button></a>
+                    </div>
+
+                    <div class="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
+                        <a href="#">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-google fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
